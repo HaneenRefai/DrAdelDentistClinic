@@ -70,8 +70,8 @@ nav li{
 }
 
 .ara{
-    margin-left: 60px;
-    margin-top: 15px;
+    margin-left: 25px;
+    margin-top: 5px;
     color: #9e3922;
     font-family: Cairo;
     font-size: 16px;
@@ -297,12 +297,16 @@ pre{
     padding: 10px;
     width: 170px;
     margin-top: 30px;
+    margin-left: 20px;
 }
 .foot div{
     background-color: #1E2330;
 }
 .footer hr{
     color: #DE9B37;
+}
+.dr{
+    margin-left: 0px;
 }
 /* 
 .br{
@@ -324,36 +328,6 @@ pre{
 .imgo{
     margin-left: 0px;
 }
-@media screen and (max-width: 768px){
-    .brr{
-        margin-top: 20px;
-        margin-left: 10px;
-        height: 220px;
-    }
-
-    .brrr{
-        display: none;
-    }
-}
-
-@media screen and (max-width: 320px){
-    .word-breaks{
-        width: 300px;
-    }
-    .yellow{
-        margin-left: 70px;
-    }
-    .imgsss{
-        flex-direction: column;
-        margin-left: 25px;
-    }
-    .imgsss img{
-        margin-left: 0px;
-        margin-top: 10px;
-    }
-}
-
-
 .spacing{
     margin-left: 10px;
 }
@@ -448,9 +422,36 @@ pre{
     background-color: #54595F;
     height: 60px;
 }
-
 .bang{
     margin-left: 20px;
+}
+@media screen and (max-width: 768px){
+    .brr{
+        margin-top: 20px;
+        margin-left: 10px;
+        height: 220px;
+    }
+
+    .brrr{
+        display: none;
+    }
+}
+
+@media screen and (max-width: 320px){
+    .word-breaks{
+        width: 300px;
+    }
+    .yellow{
+        margin-left: 70px;
+    }
+    .imgsss{
+        flex-direction: column;
+        margin-left: 25px;
+    }
+    .imgsss img{
+        margin-left: 0px;
+        margin-top: 10px;
+    }
 }
 
 @media only screen and (max-width: 425px) {
@@ -462,6 +463,9 @@ pre{
         display: flex;
         justify-content: center;
         margin-top: 20px;
+    }
+    .n{
+        display: none;
     }
     .slide img{
         height: 300px;
